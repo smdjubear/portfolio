@@ -52,7 +52,7 @@ i {
 
 .menu :hover {
   background-color: rgb(247, 155, 155);
-  border-radius: 30px; 
+  border-radius: 30px;
 }
 
 .menu a {
@@ -114,7 +114,9 @@ i {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
+
 .education a {
   text-decoration: none;
   color: blue;
@@ -128,7 +130,7 @@ i {
 .ru-logo {
   display: flex;
   gap: 30px;
-  /* margin-top: 20px; */
+  margin-left: 50px;
 }
 
 .ruce:hover {
@@ -153,7 +155,8 @@ i {
   gap: 30px;
   justify-content: center;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 .snjc :hover {
   background-color: #f9cea7;
@@ -176,7 +179,9 @@ i {
   gap: 30px;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 10px;
+margin-top: 20px;
+
 }
 
 .snhs :hover {
@@ -248,7 +253,7 @@ i {
   height: 50px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 30px ;
+  margin-top: 30px;
 }
 
 .Achievements {
@@ -259,16 +264,16 @@ i {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  row-gap: 20px;
+  row-gap: 30px;
 }
 
 .Achievements :hover {
   background-color: #f9cea7;
   border-radius: 30px;
-  h2{
+  h2 {
     color: #f5f5f7;
   }
-  h4{
+  h4 {
     color: #f5f5f7;
   }
   p {
@@ -278,7 +283,6 @@ i {
     background-color: blue;
     color: white;
     border: none;
-
   }
 }
 
@@ -288,4 +292,3 @@ i {
   text-decoration: none;
   border: 1px solid;
 }
-
