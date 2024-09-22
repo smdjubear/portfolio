@@ -26,16 +26,18 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  
 }
 
+.profile-social i{
+  width: 20px;
+  height: 20px;
+}
 .profile-social :hover {
   background-color: rgb(251, 203, 145);
   border-radius: 30px;
 }
 
-i {
-  margin-right: 10px;
-}
 
 .profile {
   padding: 20px;
